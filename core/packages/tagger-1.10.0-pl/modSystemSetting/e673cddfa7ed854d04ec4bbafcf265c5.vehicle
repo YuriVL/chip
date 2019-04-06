@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tagger',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '27810f6f129faa9ead74e45640aa17a3',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'e673cddfa7ed854d04ec4bbafcf265c5',
+  'native_key' => 'tagger.remove_accents_group',
+  'object' => '{"key":"tagger.remove_accents_group","value":1,"xtype":"combo-boolean","namespace":"tagger","area":"settings","editedon":null}',
+);

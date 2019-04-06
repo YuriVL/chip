@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tickets',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '19033865f4654b620e7864cbde564784',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '0860e76ff20ac8f9dde488ba885177a9',
+  'native_key' => 'tickets.section_content_default',
+  'object' => '{"key":"tickets.section_content_default","value":"","xtype":"textarea","namespace":"tickets","area":"tickets.section","editedon":null}',
+);

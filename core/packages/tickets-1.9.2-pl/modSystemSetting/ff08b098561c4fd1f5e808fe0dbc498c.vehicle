@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tickets',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'bc98488c773fad42a50d4ff2267bbfb0',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'ff08b098561c4fd1f5e808fe0dbc498c',
+  'native_key' => 'tickets.comment_edit_time',
+  'object' => '{"key":"tickets.comment_edit_time","value":600,"xtype":"numberfield","namespace":"tickets","area":"tickets.comment","editedon":null}',
+);

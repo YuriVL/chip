@@ -1,0 +1,15 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'tickets',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '396f91a1e70594545d48e8ec44ebe9d4',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => 'a46620b8e8b1a84cb9756088203097c7',
+  'native_key' => 'OnTicketThreadClose',
+  'object' => '{"name":"OnTicketThreadClose","service":6,"groupname":"Tickets"}',
+);

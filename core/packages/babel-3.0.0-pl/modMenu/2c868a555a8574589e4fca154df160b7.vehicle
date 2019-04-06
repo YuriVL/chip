@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'namespace' => 'babel',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4ee1a41bc37364f70173ac01cc77fb91',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '2c868a555a8574589e4fca154df160b7',
+  'native_key' => 'babel',
+  'object' => '{"text":"babel","parent":"components","action":"index","description":"babel.desc","icon":"images\\/icons\\/plugin.gif","menuindex":0,"params":"","handler":"","permissions":"","namespace":"babel","pemission":""}',
+);

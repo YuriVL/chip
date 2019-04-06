@@ -1,0 +1,76 @@
+<!-- Contact Form -->
+<form id="contact_form" name="contact_form" class="" action="includes/sendmail.php" method="post"
+      novalidate="novalidate">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label for="name">[[lex? &language=`[[++cultureKey]]` &value=`c_forms_name`]]
+                    <small>*</small>
+                </label>
+                <input name="name" class="form-control"
+                       type="text"
+                       placeholder="[[lex? &language=`[[++cultureKey]]` &value=`c_forms_enter_name`]]"
+                       value="[[!+fi.name]]" required aria-required="true">
+                <span class="error error_name">[[+f1.error.name]]</span>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>Email
+                    <small>*</small>
+                </label>
+                <input name="form_email"
+                       class="form-control required email"
+                       type="email"
+                       placeholder="[[lex? &language=`[[++cultureKey]]` &value=`c_forms_enter_email`]]"
+                       aria-required="true" value="[[!+fi.email]]" required>
+                <span class="error error_email">[[+f1.error.email]]</span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>[[lex? &language=`[[++cultureKey]]` &value=`c_forms_subject`]]
+                    <small>*</small>
+                </label>
+                <input name="form_subject" class="form-control required"
+                       type="text"
+                       placeholder="[[lex? &language=`[[++cultureKey]]` &value=`c_forms_enter_subject`]]"
+                       value="[[!+fi.subject]]"
+                       aria-required="true">
+                <span class="error error_name">[[+f1.error.subject]]</span>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>[[lex? &language=`[[++cultureKey]]` &value=`c_forms_phone`]]</label>
+                <input name="form_phone" class="form-control"
+                       type="text"
+                       placeholder="[[lex? &language=`[[++cultureKey]]` &value=`c_forms_enter_phone`]]"
+                       value="[[!+fi.phone]]">
+                <span class="error error_name">[[+f1.error.phone]]</span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>[[lex? &language=`[[++cultureKey]]` &value=`c_forms_message`]]</label>
+        <textarea name="form_message"
+                  class="form-control required" rows="5"
+                  placeholder="[[lex? &language=`[[++cultureKey]]` &value=`c_forms_enter_message`]]"
+                  aria-required="true">[[!+fi.message]]</textarea>
+        <span class="error error_bank">[[+f1.error.message]]</span>
+    </div>
+    <div class="form-group">
+        [[!recaptchav2_render]]
+        <span class="error error_recaptcha">[[!+fi.error.recaptchav2_error]]</span>
+    </div>
+    <div class="form-group">
+        <input name="form_botcheck" class="form-control" type="hidden" value="">
+        <button type="submit" class="btn btn-colored btn-theme-colored btn-lg btn-flat border-left-theme-color-2-4px"
+                data-loading-text="[[lex? &language=`[[++cultureKey]]` &value=`c_forms_please_wait`]]">
+            [[lex? &language=`[[++cultureKey]]` &value=`c_forms_send_message`]]
+        </button>
+    </div>
+</form>
+<!-- Contact Form Validation-->

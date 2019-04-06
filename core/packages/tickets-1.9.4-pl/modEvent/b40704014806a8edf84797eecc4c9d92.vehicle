@@ -1,0 +1,15 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'tickets',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0ac9590ce4d8f8797d1c103bdfa96655',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => 'b40704014806a8edf84797eecc4c9d92',
+  'native_key' => 'OnBeforeTicketUnStar',
+  'object' => '{"name":"OnBeforeTicketUnStar","service":6,"groupname":"Tickets"}',
+);

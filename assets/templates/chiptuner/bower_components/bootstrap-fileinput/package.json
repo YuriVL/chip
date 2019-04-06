@@ -1,0 +1,65 @@
+{
+  "_from": "bootstrap-fileinput",
+  "_id": "bootstrap-fileinput@4.5.3",
+  "_inBundle": false,
+  "_integrity": "sha512-l1SiH/vJmv9+kpjZQaod3aTGYhi/Q1ZypUqUIsOX8g0/LzGAPGzNBjWZngLmdkcEX8SWJd2VUbO85ijyLWI10A==",
+  "_location": "/bootstrap-fileinput",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bootstrap-fileinput",
+    "name": "bootstrap-fileinput",
+    "escapedName": "bootstrap-fileinput",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap-fileinput/-/bootstrap-fileinput-4.5.3.tgz",
+  "_shasum": "99168083105503728cd4adddca70db850ac38b8c",
+  "_spec": "bootstrap-fileinput",
+  "_where": "c:\\WORK\\web\\chiptuner\\assets\\templates\\chiptuner",
+  "authors": [
+    "Kartik Visweswaran <kartikv2@gmail.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/kartik-v/bootstrap-fileinput/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bootstrap": ">= 3.0.0",
+    "jquery": ">= 1.9.0"
+  },
+  "deprecated": false,
+  "description": "An enhanced HTML 5 file input for Bootstrap 3.x with file preview, multiple selection, ajax uploads, and more features.",
+  "homepage": "https://github.com/kartik-v/bootstrap-fileinput",
+  "keywords": [
+    "file",
+    "input",
+    "preview",
+    "image",
+    "upload",
+    "ajax",
+    "multiple",
+    "delete",
+    "progress",
+    "gallery"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "./js/fileinput.js",
+  "name": "bootstrap-fileinput",
+  "peerDependencies": {
+    "jquery": ">= 1.9.0",
+    "bootstrap": ">= 3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartik-v/bootstrap-fileinput.git"
+  },
+  "style": "./css/fileinput.css",
+  "version": "4.5.3"
+}

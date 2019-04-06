@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tickets',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '09cfa5dc70cab21f96778d9ea44a5dde',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'b4810a923b5745459ccf3a5a3ac3f0ca',
+  'native_key' => 'tickets.mail_bcc',
+  'object' => '{"key":"tickets.mail_bcc","value":"","xtype":"textfield","namespace":"tickets","area":"tickets.mail","editedon":null}',
+);

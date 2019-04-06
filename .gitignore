@@ -1,0 +1,9 @@
+# IDE
+.idea
+
+config.core.php
+conectors/config.core.php
+core/cache/*
+core/config/config.inc.php
+manager/config.core.php
+

@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'chiptuning';
+  src:  url('../fonts/chiptuning.eot?339dar');
+  src:  url('../fonts/chiptuning.eot?339dar#iefix') format('embedded-opentype'),
+  url('../fonts/chiptuning.ttf?339dar') format('truetype'),
+  url('../fonts/chiptuning.woff?339dar') format('woff'),
+  url('../fonts/chiptuning.svg?339dar#chiptuning') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change ../fonts */
+  font-family: 'chiptuning' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.chip-a51_5a5212d5b60f44cca4bee38a9424b2f7_mv2:before {
+  content: "\e900";
+}
+.chip-a51_046fc5d2e9a646e58e61900493fc4159_mv2:before {
+  content: "\e901";
+}
+.chip-a51_47eae311f57c4bb19c6a1ab01f909878_mv2:before {
+  content: "\e902";
+}
+.chip-a51_453f36dd56dd4da2ae9c2c98f66e09bb_mv2:before {
+  content: "\e903";
+}
+.chip-a51_f4709a647bb14da08fa29823cbe4cc67_mv2:before {
+  content: "\e904";
+}
+.chip-f5ee09_ee65a60b16034c96af218f22c9380e6f_mv2:before {
+  content: "\e905";
+}
