@@ -7888,7 +7888,6 @@ Modal ask me
     height: 50px;
 }
 
-
 .well {
     background-color: #333333;
     border-radius: 0;
@@ -7911,4 +7910,23 @@ Modal ask me
     background-color: #e31f25;
     border-radius: 0px;
     border: none;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .widget.dark img {
+        height: 100px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer ul.list-inline {
+        text-align: center;
+    }
+    .section-title {
+        margin-bottom: 0;
+        padding-left: 0;
+    }
 }
