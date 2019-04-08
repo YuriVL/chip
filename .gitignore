@@ -1,6 +1,6 @@
 # IDE
 .idea
-
+.htaccess
 config.core.php
 conectors/config.core.php
 core/cache/*
