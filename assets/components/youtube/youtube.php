@@ -1,5 +1,5 @@
 <?php
-const MODX_ASSETS_PATH = '';
+const MODX_ASSETS_PATH = '/home/chiptun1/public_html/assets/';
 
 class Youtube {
 
@@ -75,21 +75,19 @@ class Youtube {
 
     public function getList($url)
     {
-        if(!file_exists($this->file)){
-            $fp = fopen($this->file, 'w+');
-            $string = $this->curlJson($url);
-            $json = (array)json_decode($string, true);
-            $items = $json['items'] ?? [];
-            if(isset($json['nextPageToken'])){
-                $this->recursionCurl($items, $url, $json['nextPageToken']);
-            }
 
-            $json = json_encode($this->setPlacholders($items));
-            fwrite($fp, $json);
-            fclose($fp);
-        } else {
-            $json = file_get_contents($this->file);
+        $fp = fopen($this->file, 'w+');
+        $string = $this->curlJson($url);
+        $json = (array)json_decode($string, true);
+        $items = $json['items'] ?? [];
+        if (isset($json['nextPageToken'])) {
+            $this->recursionCurl($items, $url, $json['nextPageToken']);
         }
+
+        $json = json_encode($this->setPlacholders($items));
+        fwrite($fp, $json);
+        fclose($fp);
+
         return $json;
     }
 
