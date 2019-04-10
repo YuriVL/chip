@@ -72,15 +72,6 @@ This file contains the common styles of this theme.
 	* Footer
 * ===============================================
 */
-@import "../bower_components/font-awesome/css/font-awesome.min.css";
-@import "../bower_components/font-awesome-animation/dist/font-awesome-animation.min.css";
-@import "../css/pe-icon-7-stroke.css";
-/*@import "../css/chiptuning.css";*/
-/* @import "../css/elegant-icons.css"; */
-/* @import "../css/stroke-gap-icons.css"; */
-@import "../css/flaticon-set-carrepair.css";
-@import "../css/utility-classes.css";
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800|Raleway:400,300,200,500,700,600,800|Playfair+Display:400,400italic,700,700italic);
 
 /*
  * Typography.less
