@@ -1,5 +1,6 @@
 <?php
-const MODX_ASSETS_PATH = '/home/vagrant/www/chiptuner/assets/';
+const MODX_ASSETS_PATH = '/home/chiptun1/public_html/assets/';
+//const MODX_ASSETS_PATH = '/home/vagrant/www/chiptuner/assets/';
 
 class Youtube {
 
