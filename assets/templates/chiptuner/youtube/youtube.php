@@ -1,5 +1,5 @@
 <?php
-const MODX_ASSETS_PATH = '/home/chiptun1/public_html/assets/';
+const MODX_ASSETS_PATH = '/home/vagrant/www/chiptuner/assets/';
 
 class Youtube {
 
@@ -75,7 +75,6 @@ class Youtube {
 
     public function getList($url)
     {
-
         $fp = fopen($this->file, 'w+');
         $string = $this->curlJson($url);
         $json = (array)json_decode($string, true);
@@ -87,7 +86,6 @@ class Youtube {
         $json = json_encode($this->setPlacholders($items));
         fwrite($fp, $json);
         fclose($fp);
-
         return $json;
     }
 
