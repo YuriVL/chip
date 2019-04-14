@@ -11,7 +11,8 @@
 RewriteEngine On
 RewriteBase /
 
-
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule ^(.*)$ https://chiptuner.by/$1 [R=301,L]
 
 # Prevent dot directories (hidden directories like .git) to be exposed to the public
 # Except for the .well-known directory used by LetsEncrypt a.o
