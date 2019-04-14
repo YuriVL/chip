@@ -1,1 +1,2 @@
-RewriteEngine Off
+RewriteCond %{SERVER_PORT} !^443
+RewriteRule (.*) https://chiptuner.by/$1 [R=301,L]
